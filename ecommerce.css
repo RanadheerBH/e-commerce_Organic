@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    border: 1% solid red;
+    
+}
+/*navbar*/
+.navbar-brand{
+    width: 10%;
+}
+.navbar{
+    background-color: #ae52ec90;
+}
+.nav-link{
+    color: #4d0d54cb;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-link:hover{
+    border: 1px solid #b69ac2;
+    color: #320541;
+}
+.banner{
+  background-image: url("https://images01.nicepagecdn.com/page/42/32/website-template-preview-42326.jpg"); 
+  width: 100vw;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+.hhead h1{
+    font-size: 50px;
+    color: #a00dc1;
+    text-shadow: 4px 4px 4px #3f3e3e;
+}
+.hhead .btn{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* about */
+.two{
+    border: 2px solid gold;
+}
+.two h5{
+    color: #ffc107;
+}
+.two h2{
+    color: green;
+}
+.two p{
+    color:#f50057;
+}
+.carousel-item img{
+    width: 100%;
+    aspect-ratio: 4/2;
+}
+
+/* payment */
+.input-group-text{
+    background-color: #ae52ec90;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+}
+.pbtn{
+    font-size: 20px;
+    width: 25%;
+    font-weight: bold;
+}
+
+/*contact*/
+#forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#forms input{
+    margin-bottom: 2%;
+    border: 0.4% solid grey;
+    padding: 1%;
+}
+textarea{
+    margin-bottom: 3%;
+}
+.cbtn{
+    font-size: 20px;
+}
+
+/*footer*/
+.footer{
+    background-color: #ae52ec90;
+}
+.hfoot{
+    color: white;
+    text-decoration: 3px underline gold;
+    margin-bottom: 2%;
+}
+.links{
+    color: white;
+    font-size: 15px;
+}
+.media i{
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+}
+.media i:hover{
+    color: skyblue;
+}
